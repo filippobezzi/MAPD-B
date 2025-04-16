@@ -103,3 +103,10 @@ The following instructions need to be followed any time a new local repository i
 
   Exit and save when `git commit -a`
    ~ESC --> ~:wq!
+
+### Dependencies
+
+  Export environment dependencies
+   `pip freeze > requirements.txt`
+  Install dependencies 
+   `pip install -r requirements.txt`
